@@ -1,0 +1,71 @@
+.container {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  margin-top: 5rem;
+  -webkit-box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4);
+  text-align: center; }
+
+#profpic {
+  width: 185px;
+  height: 185px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 50%;
+  overflow: hidden; }
+  #profpic img {
+    position: relative;
+    right: 10px; }
+
+#profdesc h1 {
+  font-size: 45px; }
+
+#profdesc p {
+  font-size: 20px; }
+
+#social {
+  width: 540px;
+  height: 190px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4); }
+  #social div {
+    float: left;
+    padding: 20px 0; }
+  #social table, #social tbody, #social tr {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem; }
+  #social a {
+    text-decoration: none;
+    color: black; }
+  #social .button {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 20px; }
+  #social #button_following1, #social #button_following2 {
+    display: none; }
+    #social #button_following1 #unfollow, #social #button_following2 #unfollow {
+      display: none; }
+    #social #button_following1:hover #unfollow, #social #button_following2:hover #unfollow {
+      display: inline; }
+    #social #button_following1:hover #following, #social #button_following2:hover #following {
+      display: none; }
+  #social #twitter {
+    background: lightblue;
+    width: 50%; }
+    #social #twitter a:hover, #social #twitter #button_following1 {
+      background-color: #30a4d8;
+      color: white; }
+  #social #instagram {
+    background: pink;
+    width: 50%; }
+    #social #instagram a:hover, #social #instagram #button_following2 {
+      background-color: #db5a81;
+      color: white; }

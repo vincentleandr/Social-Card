@@ -1,0 +1,105 @@
+.container {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    margin-top: 5rem;
+    box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+#profpic {
+    width: 185px;
+    height: 185px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    img {
+        position: relative;
+        right: 10px;
+    }
+}
+
+#profdesc {
+    h1 {
+        font-size: 45px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
+
+#social {
+    width: 540px;
+    height: 190px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4);
+    
+    div {
+        float: left;
+        padding: 20px 0;
+    }
+    
+    table, tbody, tr {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .button {
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 5px 20px;
+        
+        &:hover {
+        }
+    }
+    
+    #button_following1, #button_following2 {
+        display: none;
+        
+        #unfollow {
+                display: none;
+            }
+            
+            &:hover #unfollow{
+                display: inline;
+            }
+            
+            &:hover #following {
+                display: none;
+            }
+    }
+    
+    #twitter {
+        background: lightblue;
+        width: 50%;
+        
+        a:hover, #button_following1 {
+            background-color: #30a4d8;
+            color: white;
+        }
+    }
+    
+    #instagram {
+        background: pink;
+        width: 50%;
+        
+        a:hover, #button_following2 {
+            background-color: #db5a81;
+            color: white;
+        }
+    }
+}
