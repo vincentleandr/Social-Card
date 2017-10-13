@@ -4,7 +4,7 @@
   margin: 0 auto;
   background: white;
   padding: 20px;
-  margin-top: 5rem;
+  margin-top: 2rem;
   -webkit-box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4);
   box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4);
   text-align: center; }
@@ -31,6 +31,7 @@
   height: 190px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 3rem;
   -webkit-box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4);
   box-shadow: 0 12px 38px rgba(0, 0, 0, 0.4); }
   #social div {
@@ -46,9 +47,14 @@
     text-decoration: none;
     color: black; }
   #social .button {
+    width: 130px;
     border: 2px solid black;
     border-radius: 20px;
-    padding: 5px 20px; }
+    padding: 7px 30px;
+    background: none;
+    cursor: pointer;
+    font-family: 'Lusitana', serif;
+    font-size: 16px; }
   #social #button_following1, #social #button_following2 {
     display: none; }
     #social #button_following1 #unfollow, #social #button_following2 #unfollow {

@@ -72,8 +72,8 @@ class App extends Component {
                                 </tr>
                             </tbody>
                         </table>
-                        <a href="#" className="button" id="button1" onClick={this.increaseTFollowers.bind(this)}>Follow</a>
-                        <a href="#" className="button" id="button_following1" onClick={this.decreaseTFollowers.bind(this)}><span id="following">Following</span><span id="unfollow">Unfollow</span></a>
+                        <button className="button" id="button1" onClick={this.increaseTFollowers.bind(this)}>Follow</button>
+                        <button className="button" id="button_following1" onClick={this.decreaseTFollowers.bind(this)}><span id="following">Following</span><span id="unfollow">Unfollow</span></button>
                     </div>
                     <div id="instagram">
                         <i className="fa fa-instagram fa-2x fa-fw"></i>
@@ -89,8 +89,8 @@ class App extends Component {
                                 </tr>
                             </tbody>
                         </table>
-                        <a href="#" className="button" id="button2" onClick={this.increaseIFollowers.bind(this)}>Follow</a>
-                        <a href="#" className="button" id="button_following2" onClick={this.decreaseIFollowers.bind(this)}><span id="following">Following</span><span id="unfollow">Unfollow</span></a>
+                        <button className="button" id="button2" onClick={this.increaseIFollowers.bind(this)}>Follow</button>
+                        <button className="button" id="button_following2" onClick={this.decreaseIFollowers.bind(this)}><span id="following">Following</span><span id="unfollow">Unfollow</span></button>
                     </div>
                 </div>
             </div>
